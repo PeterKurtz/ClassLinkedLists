@@ -57,6 +57,15 @@ public class LinkedList <E extends Comparable>{
         this.size--;
     }
 
+    public void print(){
+        ListNode<E> node = head.next;
+        while (node != null) {
+            System.out.print(node.value + " ");
+            node = node.next;
+        }
+        System.out.println();
+    }
+
 }
 
 
