@@ -6,5 +6,12 @@ public class Main {
         linked.insert(2);
         linked.insert(3);
         linked.remove(3);
+
+        LinkedList words = new LinkedList();
+        words.insert("a");
+        words.insert("b");
+        words.insert("z");
+        words.insert("d");
+        words.remove("b");
     }
 }
